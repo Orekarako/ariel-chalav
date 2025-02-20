@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.scss";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
 
   const src = `./src/images/arielPhoto`;
   const resetGame = () => {
+    console.log(buttonSelected)
     setBgImages(["", "", ""])
     setButtonSelected(null)
     setResultText('')
