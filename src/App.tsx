@@ -53,7 +53,7 @@ function App() {
     <section className="main-section">
       <header>
         <div className="main-image">
-          <img src="/images/arielPhoto.png" alt="" />
+          <img src="/images/arielPhoto1.png" alt="" />
         </div>
       </header>
       <div className="body-section">
