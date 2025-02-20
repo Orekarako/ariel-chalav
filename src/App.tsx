@@ -8,12 +8,12 @@ function App() {
   const [bgImages, setBgImages] = useState<string[]>(["", "", ""]); // מערך רקעים לכל כרטיס
   const [resultText, setResultText] = useState<string>(""); // שמירת הטקסט
 
-  const src = `/images/arielPhoto`;
+  const src = `./src/images/arielPhoto`;
   const resetGame = () => {
-    console.log(buttonSelected)
     setBgImages(["", "", ""])
     setButtonSelected(null)
     setResultText('')
+    console.log(buttonSelected)
     setRandomPhotoSelected([])
   }
   const getRandomImage = (max: number) => {
@@ -53,7 +53,7 @@ function App() {
     <section className="main-section">
       <header>
         <div className="main-image">
-          <img src="/images/arielPhoto1.png" alt="" />
+          <img src="./src/images/arielPhoto1.png" alt="" />
         </div>
       </header>
       <div className="body-section">
