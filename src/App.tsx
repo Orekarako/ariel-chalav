@@ -8,7 +8,7 @@ function App() {
   const [bgImages, setBgImages] = useState<string[]>(["", "", ""]); // מערך רקעים לכל כרטיס
   const [resultText, setResultText] = useState<string>(""); // שמירת הטקסט
 
-  const src = `./src/images/arielPhoto`;
+  const src = `../src/images/arielPhoto`;
   const resetGame = () => {
     console.log(buttonSelected)
     setBgImages(["", "", ""])
